@@ -1,13 +1,58 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minimalist React Background with New Component</title>
+  <script src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.development.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.development.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.22.5/babel.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      margin: 0;
+      overflow: auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    const Background = () => {
+      return (
+        <div
+          className="w-full h-screen bg-[#F5F5F5] fixed top-0 left-0 z-[-1]"
+          style={{
+            backgroundImage: `
+              linear-gradient(to right, #E0E0E0 1px, transparent 1px),
+              linear-gradient(to bottom, #E0E0E0 1px, transparent 1px)
+            `,
+            backgroundSize: '20px 20px',
+            backgroundAttachment: 'fixed',
+          }}
+        />
+      );
+    };
+
+    // Your new component (replace this with your actual component)
+    const NewComponent = () => {
+      return (
+        <div className="p-6 text-center">
+          <h1 className="text-2xl font-bold">My New Component</h1>
+          <p className="mt-2">This is the new component I created!</p>
+        </div>
+      );
+    };
+
+    const App = () => (
+      <div>
+        <Background />
+        <NewComponent />
+      </div>
+    );
+
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<App />);
+  </script>
+</body>
 </html>
