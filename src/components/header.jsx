@@ -22,10 +22,11 @@ const Header = () => {
         <div className='flex items-center justify-between'>
         <div className="text-2xl font-bold">Sonis Sapkota</div>
         <div className="flex space-x-6">
-          <a href="#" className="text-gray-800 hover:text-gray-600 hover:underline decoration-gray-400 underline-offset-4 transition-all">Home</a>
-          <a href="#" className="text-gray-800 hover:text-gray-600 hover:underline decoration-gray-400 underline-offset-4 transition-all">About</a>
-          <a href="#" className="text-gray-800 hover:text-gray-600 hover:underline decoration-gray-400 underline-offset-4 transition-all">Projects</a>
-          <a href="#" className="text-gray-800 hover:text-gray-600 hover:underline decoration-gray-400 underline-offset-4 transition-all">Contact</a>
+          <a href="#home" className="text-gray-800 hover:text-gray-600 hover:underline decoration-gray-400 underline-offset-4 transition-all">Home</a>
+          <a href="#about" className="text-gray-800 hover:text-gray-600 hover:underline decoration-gray-400 underline-offset-4 transition-all">About</a>
+          <a href="#skills" className="text-gray-800 hover:text-gray-600 hover:underline decoration-gray-400 underline-offset-4 transition-all">Skills</a>
+          <a href="#projects" className="text-gray-800 hover:text-gray-600 hover:underline decoration-gray-400 underline-offset-4 transition-all">Projects</a>
+          <a href="#contact" className="text-gray-800 hover:text-gray-600 hover:underline decoration-gray-400 underline-offset-4 transition-all">Contact</a>
         </div>
       </div>
       </div>

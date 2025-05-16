@@ -48,7 +48,7 @@ const Contact = () => {
               <p>
                 Prefer email? Reach me at:{" "}
                 <a href="mailto:john.doe@example.com" className="hover:underline">
-                  john.doe@example.com
+                  sonishsapkota47@gmail.com
                 </a>
               </p>
             </div>
