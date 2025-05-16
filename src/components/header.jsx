@@ -20,7 +20,7 @@ const Header = () => {
     <nav className={`fixed py-4 w-full transition-colors duration-300 z-50 ${scrolled ? 'bg-gray-100 shadow-sm' : 'bg-transparent'}`}>
       <div className='container mx-auto px-4 md:px-6'>
         <div className='flex items-center justify-between'>
-        <div className="text-xl font-semibold">Sonis Sapkota</div>
+        <div className="text-2xl font-bold">Sonis Sapkota</div>
         <div className="flex space-x-6">
           <a href="#" className="text-gray-800 hover:text-gray-600 hover:underline decoration-gray-400 underline-offset-4 transition-all">Home</a>
           <a href="#" className="text-gray-800 hover:text-gray-600 hover:underline decoration-gray-400 underline-offset-4 transition-all">About</a>
