@@ -49,10 +49,6 @@ const Projects = () => {
           ))}
         </div>
       </div>
-
-      <div className="absolute top-12 right-8 opacity-15 w-8 h-8 pointer-events-none">
-        <CodeIcon className="w-full h-full" />
-      </div>
     </section>
   )
 }
