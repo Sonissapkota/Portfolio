@@ -17,13 +17,15 @@ const Header = () => {
   }, []);
 
   return (
-    <nav className={`fixed top-0 w-full flex justify-between items-center p-4 transition-colors duration-300 z-50 ${scrolled ? 'bg-gray-100' : 'bg-transparent'}`}>
-      <div className="text-lg font-bold text-gray-800">Sonis Sapkota</div>
-      <div className="flex space-x-6">
-        <a href="#" className="text-gray-800 hover:text-gray-600 hover:underline decoration-gray-400 underline-offset-4 transition-all">Home</a>
-        <a href="#" className="text-gray-800 hover:text-gray-600 hover:underline decoration-gray-400 underline-offset-4 transition-all">About</a>
-        <a href="#" className="text-gray-800 hover:text-gray-600 hover:underline decoration-gray-400 underline-offset-4 transition-all">Projects</a>
-        <a href="#" className="text-gray-800 hover:text-gray-600 hover:underline decoration-gray-400 underline-offset-4 transition-all">Contact</a>
+    <nav className={`fixed top-0 w-full transition-colors duration-300 z-50 ${scrolled ? 'bg-gray-100' : 'bg-transparent'}`}>
+      <div className='max-w-[1200px] mx-auto px-10 py-4 flex justify-between items-center'>
+        <div className="text-xl font-medium">Sonis Sapkota</div>
+        <div className="flex space-x-6">
+          <a href="#" className="text-gray-800 hover:text-gray-600 hover:underline decoration-gray-400 underline-offset-4 transition-all">Home</a>
+          <a href="#" className="text-gray-800 hover:text-gray-600 hover:underline decoration-gray-400 underline-offset-4 transition-all">About</a>
+          <a href="#" className="text-gray-800 hover:text-gray-600 hover:underline decoration-gray-400 underline-offset-4 transition-all">Projects</a>
+          <a href="#" className="text-gray-800 hover:text-gray-600 hover:underline decoration-gray-400 underline-offset-4 transition-all">Contact</a>
+        </div>
       </div>
     </nav>
   );
