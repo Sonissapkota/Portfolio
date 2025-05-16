@@ -46,7 +46,7 @@ const Skills = () => {
                   <div key={skillIndex} className="mb-2">
                     <div className="flex justify-between mb-1">
                       <span className="text-sm font-medium text-gray-700">{skill.name}</span>
-                      <span>{skill.percentage}%</span>
+                      <span className="text-sm font-medium text-gray-700">{skill.percentage}%</span>
                     </div>
                     <div className="w-full bg-gray-200 h-1.5">
                       <div
