@@ -17,7 +17,7 @@ const Header = () => {
   }, []);
 
   return (
-    <nav className={`fixed py-4 w-full transition-colors duration-300 z-50 ${scrolled ? 'bg-gray-100' : 'bg-transparent'}`}>
+    <nav className={`fixed py-4 w-full transition-colors duration-300 z-50 ${scrolled ? 'bg-gray-100 shadow-sm' : 'bg-transparent'}`}>
       <div className='container mx-auto px-4 md:px-6'>
         <div className='flex items-center justify-between'>
         <div className="text-xl font-semibold">Sonis Sapkota</div>
