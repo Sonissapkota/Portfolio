@@ -3,11 +3,10 @@ const Skills = () => {
         {
           category: "Programming Languages",
           skills: [
-            { name: "Python", percentage: 85 },
-            { name: "JavaScript", percentage: 75 },
+            { name: "JavaScript", percentage: 90 },
             { name: "TypeScript", percentage: 70 },
             { name: "SQL", percentage: 80 },
-            { name: "Java", percentage: 60 },
+            { name: "Python", percentage: 60 },
           ],
         },
         {
@@ -15,8 +14,7 @@ const Skills = () => {
           skills: [
             { name: "Node.js", percentage: 80 },
             { name: "Express", percentage: 85 },
-            { name: "Django", percentage: 75 },
-            { name: "Flask", percentage: 80 },
+            { name: "NestJs", percentage: 90 },
             { name: "React", percentage: 65 },
           ],
         },
@@ -25,7 +23,6 @@ const Skills = () => {
           skills: [
             { name: "PostgreSQL", percentage: 85 },
             { name: "MongoDB", percentage: 80 },
-            { name: "Git", percentage: 75 },
             { name: "Docker", percentage: 70 },
             { name: "Linux", percentage: 70 }
           ],

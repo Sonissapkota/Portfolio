@@ -1,25 +1,25 @@
 const Projects = () => {
   const projects = [
     {
-      title: "RESTful API Service",
-      description:
-        "A Node.js and Express-based RESTful API service with MongoDB integration for data storage and retrieval.",
-      tags: ["Node.js", "Express", "MongoDB"],
-      link: "#",
+       title: "Full-Featured E-commerce Backend API with NestJS & PostgreSQL",
+       description:
+        "Developed a robust, scalable backend for an e-commerce application using NestJS and TypeScript, implementing RESTful APIs with PostgreSQL for efficient data management and retrieval.",
+       tags: ["NestJS", "TypeScript", "PostgreSQL"],
+       link: "#",
     },
-    {
-      title: "Data Processing Pipeline",
-      description:
-        "A Python-based data processing pipeline that extracts, transforms, and loads data from various sources.",
-      tags: ["Python", "Pandas", "SQL"],
-      link: "#",
-    },
-    {
-      title: "Authentication Microservice",
-      description: "A secure authentication microservice with JWT implementation and role-based access control.",
-      tags: ["Node.js", "JWT", "Security"],
-      link: "#",
-    },
+    // {
+    //   title: "Data Processing Pipeline",
+    //   description:
+    //     "A Python-based data processing pipeline that extracts, transforms, and loads data from various sources.",
+    //   tags: ["Python", "Pandas", "SQL"],
+    //   link: "#",
+    // },
+    // {
+    //   title: "Authentication Microservice",
+    //   description: "A secure authentication microservice with JWT implementation and role-based access control.",
+    //   tags: ["Node.js", "JWT", "Security"],
+    //   link: "#",
+    // },
   ]
 
   return (
